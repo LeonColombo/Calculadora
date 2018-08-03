@@ -14,7 +14,7 @@ public class ListenerVolver implements View.OnClickListener {
     @Override
     public void onClick(View view) {
 
-        Intent intent = new Intent(this.context, ActivityResultado.class);
+        context.onBackPressed();
 
     }
 }
