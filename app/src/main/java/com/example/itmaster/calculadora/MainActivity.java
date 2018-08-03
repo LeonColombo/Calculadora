@@ -27,7 +27,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-
+        numero1 = findViewById(R.id.numero1);
+        numero2 = findViewById(R.id.numero2);
 
         botonsuma = findViewById(R.id.botonsuma);
         botonresta = findViewById(R.id.botonresta);

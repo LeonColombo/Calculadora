@@ -19,8 +19,9 @@ public class ListenerSuma implements View.OnClickListener
     public void onClick(View view) {
 
         Intent intent = new Intent(this.context, ActivityResultado.class);
+
         Integer suma = Integer.valueOf(context.getNumero1().getText().toString()) + Integer.valueOf(context.getNumero2().getText().toString());
-        intent.putExtra("SUMA", suma);
+        intent.putExtra("RESULTADO", suma);
 
         context.startActivity(intent);
 

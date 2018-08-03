@@ -17,7 +17,7 @@ public class ListenerResta implements View.OnClickListener {
         Intent intent = new Intent(this.context, ActivityResultado.class);
 
         Integer resta = Integer.valueOf(context.getNumero1().getText().toString()) - Integer.valueOf(context.getNumero2().getText().toString());
-        intent.putExtra("RESTA", resta);
+        intent.putExtra("RESULTADO", resta);
 
 
         context.startActivity(intent);
